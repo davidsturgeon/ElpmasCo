@@ -1,0 +1,14 @@
+{
+  "name": "ElpmasCo",
+  "version": "0.0.0",
+  "description": "A sample product page with checkout cart built in angular.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Sturgeon",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.8.8"
+  }
+}
