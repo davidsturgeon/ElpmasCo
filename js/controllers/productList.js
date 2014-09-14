@@ -1,8 +1,9 @@
 console.log('Add the ProductList Controller')
-app.controller('productList', ['$scope', 'productFactory', function($scope,productFactory) {
+app.controller('productList', ['$scope', 'productFactory','cartFactory', function($scope,productFactory,cartFactory) {
 	$scope.productRows = [];
 	productFactory.getProducts().success(function(data){
 		$scope.products = data.products;
+		$scope.cart = cartFactory;
 		var i,j,temparray,chunk = 3;
 		for (i=0,j=$scope.products.length; i<j; i+=chunk) {
 		    temparray = $scope.products.slice(i,i+chunk);

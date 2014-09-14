@@ -19,7 +19,18 @@
               font-size: .7em;
             }
             .nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
-
+            .product h2 {
+              overflow: hidden;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+            }
+            .product h3 {
+              margin-top: 0px;
+            }
+            .product .description {
+              max-height: 100px;
+              overflow: hidden;
+            }
         </style>
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/main.css">
@@ -36,6 +47,7 @@
         <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.11.0.js"></script>
         <script src="js/main.js"></script>
         <script src="js/factories/productFactory.js"></script>
+        <script src="js/factories/cartFactory.js"></script>
         <script src="js/controllers/productList.js"></script>
     </body>
 </html>

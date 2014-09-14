@@ -3,14 +3,14 @@
 		{
 			"name":"Soup",
 			"id":"1",
-			"description":"Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.",
+			"description":"Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna",
 			"photo":"http://lorempixel.com/500/300/food/1",
 			"price":"9.99"
 		},
 		{
 			"name":"Beef Plate",
 			"id":"2",
-			"description":"Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.",
+			"description":"Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ",
 			"photo":"http://lorempixel.com/500/300/food/2",
 			"price":"2.99"
 		},
