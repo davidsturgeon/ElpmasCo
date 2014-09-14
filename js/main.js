@@ -3,11 +3,11 @@ var app = angular.module('Products', ['ui.bootstrap','ngRoute'])
   $routeProvider
     .when('/', {
       controller:'ProductList',
-      templateUrl:'/partials/list.html'
+      templateUrl:'partials/list.html'
     })
     .when('/Product/:projectId', {
       controller:'Product',
-      templateUrl:'/partials/Products.html'
+      templateUrl:'partials/Products.html'
     })
     .otherwise({
       redirectTo:'/'
