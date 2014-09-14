@@ -1,0 +1,28 @@
+<div data-ng-include="'/partials/nav.html'"></div>
+<!-- Main jumbotron for a primary marketing message or call to action -->
+
+  <div class="container-fluid text-center well">
+    <h1>Meet the ElpmasCo Staff</h1>
+    <carousel interval="myInterval" style="max-width: 800px" class="center-block">
+     <slide data-ng-repeat="slide in slides" active="slide.active">
+       <img data-ng-src="{{slide.image}}" style="margin:auto;">
+       <div class="carousel-caption">
+         <p>{{slide.text}}</p>
+       </div>
+     </slide>
+    </carousel>
+  </div>
+
+<div class="container"> 
+  <!-- Example row of columns -->
+  <div class="row" data-ng-repeat="products in productRows">
+        <div class="col-md-4 product" data-ng-repeat="item in products">
+          <h2>{{item.name}}  - <strong class="text-primary">${{item.price}}</strong> </h2>
+          <p class="text-center"><img data-ng-src="{{item.photo}}" alt="{{item.name}}" class="img-thumbnail"></p>
+          <p class="description">{{item.description}} </p>
+          <p class="clearfix"><a class="btn btn-primary pull-right" href="#" role="button" data-ng-click="addToCart(item.id)">Add to Cart</a></p>
+        </div>
+  </div>
+  <hr>
+  <div data-ng-include="'/partials/footer.html'"></div>
+</div> <!-- /container -->     
