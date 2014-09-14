@@ -2,11 +2,11 @@ var app = angular.module('Products', ['ui.bootstrap','ngRoute'])
 .config(function($routeProvider) {
   $routeProvider
     .when('/', {
-      controller:'ProductList',
+      controller:'productList',
       templateUrl:'partials/list.html'
     })
     .when('/Product/:projectId', {
-      controller:'Product',
+      controller:'product',
       templateUrl:'partials/Products.html'
     })
     .otherwise({

@@ -1,5 +1,5 @@
 console.log('Add the ProductList Controller')
-app.controller('ProductList', ['$scope', 'productFactory', function($scope,productFactory) {
+app.controller('productList', ['$scope', 'productFactory', function($scope,productFactory) {
 	$scope.productRows = [];
 	productFactory.getProducts().success(function(data){
 		$scope.products = data.products;
